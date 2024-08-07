@@ -7,7 +7,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.11.1
-    created: "2024-08-06T19:55:05.58387904-05:00"
+    created: "2024-08-07T09:41:19.544008871-05:00"
     description: Ingress controller for Kubernetes using NGINX as a reverse proxy
       and load balancer
     digest: a3ac88eafc1af1f9d1c83d657c7abba17f8b30f95fc6e381f8f6360a301dd9dc
@@ -28,12 +28,12 @@ entries:
     sources:
     - https://github.com/kubernetes/ingress-nginx
     urls:
-    - https://raw.githubusercontent.com/k2view/blueprints/main/helm/k2v-ingress/charts/ingress-nginx-4.11.1.tgz
+    - https://raw.githubusercontent.com/gm-k2v/blueprints-fork/local-fork/k2v-ingress/helm/k2v-ingress/charts/ingress-nginx-4.11.1.tgz
     version: 4.11.1
   k2v-ingress:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-08-06T19:55:05.575585696-05:00"
+    created: "2024-08-07T09:41:19.534790668-05:00"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -44,6 +44,6 @@ entries:
     name: k2v-ingress
     type: application
     urls:
-    - https://raw.githubusercontent.com/k2view/blueprints/main/helm/k2v-ingress/k2v-ingress-0.9.9.tgz
+    - https://raw.githubusercontent.com/gm-k2v/blueprints-fork/local-fork/k2v-ingress/helm/k2v-ingress/k2v-ingress-0.9.9.tgz
     version: 0.9.9
-generated: "2024-08-06T19:55:05.566973281-05:00"
+generated: "2024-08-07T09:41:19.523376072-05:00"
